@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - mvn --version
+  build:
+    commands:
+      - echo Build of SampleAPIApp started on `date`
+      - mvn clean package
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - target/SpringBootRestApiExample-1.0.0.jar
+    - appspec.yml
+    - 'scripts/**/*'
