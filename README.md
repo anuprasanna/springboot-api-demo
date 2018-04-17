@@ -20,3 +20,5 @@ Run the project and head out to [http://localhost:8080]
 * {[/api/user/{id}],methods=[PUT]} - Update a user
 * {[/api/user/],methods=[DELETE]} - Delete all users
 * {[/api/user/{id}],methods=[DELETE]} - Delete a apecific user
+
+Just an update
