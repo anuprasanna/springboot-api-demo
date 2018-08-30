@@ -37,6 +37,8 @@
 	</dependencies>
 
 	<scm>
+		<connection>scm:git:https://github.com/anuprasanna/springboot-api-demo.git</connection>
+   		<url>https://github.com/anuprasanna/springboot-api-demo</url>
 		<developerConnection>scm:git:https://github.com/anuprasanna/springboot-api-demo</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
