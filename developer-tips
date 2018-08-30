@@ -1,2 +1,21 @@
 This is a tips file that is used for record important notes:
 ------------------------------------------------------------
+
+Project location:
+    https://github.com/anuprasanna/springboot-api-demo.git
+
+How to build the file:
+    mvn clean install
+
+How to commit a new version:
+    mvn release:prepare
+
+
+
+AWS CodePipeline config:
+
+    AWS CodeBuild
+        buildspec.yml
+
+    AWS CodeDeploy
+        appspec.yml
