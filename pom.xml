@@ -48,6 +48,11 @@
 			<url>http://localhost:8081/repository/springboot-api-demo-repo/</url>
 			<!--url>file:///Users/anuradha/Documents/_POC/Java/spring/release</url-->
 		</repository>
+		<snapshotRepository>
+			<id>nexus-local</id>
+			<name>Internal Nexus Repo</name>
+			<url>http://localhost:8081/repository/springboot-api-demo-repo/</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<build>
