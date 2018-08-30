@@ -43,9 +43,10 @@
 
 	<distributionManagement>
 		<repository>
-			<id>internal.repo</id>
-			<name>Internal repo</name>
-			<url>file:///Users/anuradha/Documents/_POC/Java/spring/release</url>
+			<id>nexus-local</id>
+			<name>Internal Nexus Repo</name>
+			<url>http://localhost:8081/repository/springboot-api-demo-repo/</url>
+			<!--url>file:///Users/anuradha/Documents/_POC/Java/spring/release</url-->
 		</repository>
 	</distributionManagement>
 
@@ -98,7 +99,7 @@
 						</executions>
 						<configuration>
 							<serverId>nexus-local</serverId>
-							<nexusUrl>http://localhost:8081/repository/springboot-api-demo-repo/</nexusUrl>
+							<nexusUrl>http://localhost:8081/nexus/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
